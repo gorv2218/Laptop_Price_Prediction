@@ -1,0 +1,75 @@
+[data-testid="stApp"]{
+    background: radial-gradient(circle, rgba(233,118,96,1) 0%, rgba(232,231,120,1) 100%);
+} 
+
+
+.st-emotion-cache-0.e1f1d6gn0 [data-testid="stVerticalBlockBorderWrapper"]{
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    width:100%;
+}
+
+/* Title styling */
+h1 {
+    color:white;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+div.st-emotion-cache-jkfxgf.st-emotion-cache-0.e1f1d6gn0{
+    margin:10px;
+    color:black;
+    font-size: 1rem;
+    font-weight: Bold;
+
+}
+
+
+
+div.st-emotion-cache-1dj3ksd.ew7r33m3{
+    background: radial-gradient(circle, rgba(233,118,96,1) 0%, rgba(232,231,120,1) 100%);
+}
+
+div.st-emotion-cache-1dj3ksd.ew7r33m3:active::-webkit-slider-thumb{
+    background: radial-gradient(circle, rgba(233,118,96,1) 0%, rgba(232,231,120,1) 100%);
+}
+
+div.st-emotion-cache-10y5sf6.ew7r33m2 {
+    color:rgb(232, 134, 6); /* change the text color to blue */
+  }
+
+div.st-emotion-cache-10y5sf6.ew7r33m2:active{
+    color:rgb(232, 142, 6);
+}
+
+
+
+/* Button styling */
+
+.stButton{
+    display: flex;
+    justify-content: center;  /* Center the button */
+    margin-top: 20px;  /* Add some space above */
+}
+
+.stButton > button {
+    background-color:rgb(231, 160, 54);  /* Bootstrap warning color */
+    color: white;
+    font-size: 2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+/* Button hover effect */
+.stButton > button:hover {
+    background-color: #ec891f;
+    color:white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
